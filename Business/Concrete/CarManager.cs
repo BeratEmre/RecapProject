@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -20,19 +22,20 @@ namespace Business.Concrete
             _cardal = cardal;
         }
         [ValidationAspect(typeof(CarValidator))]
+        [SecuredOperation("rental.add,admin")]
         public IResult Add(Car car)
         {            
                 _cardal.Add(car);
                 return new SuccessResult(Messages.Added);          
         }
-        
 
+        [SecuredOperation("rental.add,admin")]
         public IResult Delete(Car car)
         {
             _cardal.Delete(car);
             return new SuccessResult(Messages.Deleted);
         }
-
+        [PerformanceAspect(1)]
         public IDataResult<List<Car>> GetAll()
         {
             var result=_cardal.GetAll();

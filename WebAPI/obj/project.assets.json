@@ -1720,6 +1720,8 @@
         "dependencies": {
           "Castle.Core": "4.4.1",
           "FluentValidation": "9.5.1",
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11",
           "Microsoft.IdentityModel.Tokens": "6.8.0",
@@ -6291,11 +6293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6316,17 +6318,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Business\\Business.csproj"
+            "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj"
+            "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj"
             },
-            "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Entities\\Entities.csproj"
             }
           }
         }

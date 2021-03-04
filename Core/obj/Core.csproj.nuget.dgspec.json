@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj": {}
+    "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -51,6 +51,14 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",

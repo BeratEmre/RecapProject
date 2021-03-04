@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Aspects.Autofac.Performance;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -14,7 +15,7 @@ namespace Business.Concrete
         {
             _brandDal = brandDal;
         }
-
+        [PerformanceAspect(1)]
         public void Add(Brand brand)
         {
             _brandDal.Add(brand);

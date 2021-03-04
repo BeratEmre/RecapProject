@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3UmqNvLcf9jmd1HLm8P26niK0a4x7+tBqjJJb5vb8u8SyRaMuCwgc5Qo9Ld20WAtDllhcV8aKyDyXzqgYs89Ig==",
+  "dgSpecHash": "pzbPxoTdCey26gnzPojnWiR6497+bcAhU+duFP+WVDTCkU59HZ8wOKWT83Qiiuz0D7+L/JWPXBNM9RhejAjz8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berat\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

@@ -34,3 +34,15 @@ C:\Users\berat\Desktop\OYUNLAR\ReCapt\RecCapProject\Entities\obj\Debug\netstanda
 C:\Users\berat\Desktop\OYUNLAR\ReCapt\RecCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
 C:\Users\berat\Desktop\OYUNLAR\ReCapt\RecCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\berat\Desktop\OYUNLAR\ReCapt\RecCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\berat\Desktop\KURSLARIM\C#\RecapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb

@@ -5,8 +5,7 @@ using System.Text;
 
 namespace Core.Utilities.IoC
 {
-    public static class ClaimsPrincipalExtensions
-    {
+ 
         public static class ServiceTool
         {
             public static IServiceProvider ServiceProvider { get; private set; }
@@ -17,5 +16,5 @@ namespace Core.Utilities.IoC
                 return services;
             }
         }
-    }
+    
 }

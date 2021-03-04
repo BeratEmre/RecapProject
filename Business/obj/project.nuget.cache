@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EclP5YPMsN6GKtVyvWuk7d4qiC8tz+K0spL00TzUECbPy6KwZrLLmZ/rJ4LTtJkG0BRHPdzfbdy57JwZa1JD3Q==",
+  "dgSpecHash": "KaQ74ZZbhxeqDgQCCh/QsZoB7bg1WJAfzBmN0zgZTCaun31Fkb586+MY2BkWPYfzzQdIZH1LlbRQCCSbWk3oBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berat\\Desktop\\OYUNLAR\\ReCapt\\RecCapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\berat\\Desktop\\KURSLARIM\\C#\\RecapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berat\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\berat\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
