@@ -55,5 +55,12 @@ namespace Business.Constants
         public static string GetAllCars="All cars getted";
 
         public static string AuthorizationDenied = "You are not authorized";
+
+        public static string BrandsGetted = "All brands getted";
+
+        public static string ColorAdded = "Color added";
+        public static string AllColors = "All colors getted";
+
+        public static string CarDetail = "Car detail is load";
     }
 }

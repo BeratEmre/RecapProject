@@ -40,6 +40,12 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
+            builder.RegisterType<BrandManager>().As<IBrandService>();
+            builder.RegisterType<EfBrandDal>().As<IBrandDal>();
+
+            builder.RegisterType<ColorManager>().As<IColorService>();
+            builder.RegisterType<EfColorDal>().As<IColorDal>();
+
             builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();

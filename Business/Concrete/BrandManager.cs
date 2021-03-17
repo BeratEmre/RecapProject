@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Core.Aspects.Autofac.Performance;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -16,9 +18,15 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
         [PerformanceAspect(1)]
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
             _brandDal.Add(brand);
+            return new SuccessResult();
+        }
+
+        public IDataResult<List<Brand>> GetAll()
+        {
+           return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(),Messages.BrandsGetted);            
         }
     }
 }
