@@ -22,14 +22,14 @@ namespace Business.Concrete
             _cardal = cardal;
         }
         [ValidationAspect(typeof(CarValidator))]
-        [SecuredOperation("rental.add,admin")]
+        //[SecuredOperation("admin")]
         public IResult Add(Car car)
         {            
                 _cardal.Add(car);
-                return new SuccessResult(Messages.Added);          
+                return new SuccessResult(Messages.Added);
         }
 
-        [SecuredOperation("rental.add,admin")]
+        //[SecuredOperation("rental.add,admin")]
         public IResult Delete(Car car)
         {
             _cardal.Delete(car);

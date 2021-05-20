@@ -9,17 +9,17 @@ namespace Business.Constants
 {
     public class Messages
     {
-        public static string Added = "Car is added";
+        public static string Added = "Araba başarıyla eklendi.";
 
         public static string NotAdded = "The car could not be added";
 
-        public static string Deleted = "Car is deleted!";
+        public static string Deleted = "Araba silindi!";
 
         public static string GetAll = "All cars would bring";
 
         public static string CarGet = "Car was brought";
 
-        public static string Updated = "Car is modified";
+        public static string Updated = "Araba bilgileri güncellendi.";
 
         public static string GetRentalDetails = "Rental details were brought";
 
